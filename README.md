@@ -1,1 +1,1 @@
-"# CEME-lite" 
+CEME lite
