@@ -2,7 +2,7 @@
 // @name         CEME lite
 // @namespace    http://ceme.lol
 // @version      1.0
-// @description  Enhance your EmeraldChat experience with a sleek, animated UI and more features, including a Windows XP-style modal check for 1.1.1.1 installation.
+// @description  Enhance your EmeraldChat experience with CEME.
 // @author       CDrive
 // @match        https://emeraldchat.com/*
 // @grant        GM_addStyle
