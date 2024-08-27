@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.9.5
 // @description  Enhance your EmeraldChat experience with a sleek, animated UI, customizable themes stored in session storage, and a popup menu for selecting themes.
-// @author       Your Name
+// @author       CDrive
 // @match        https://emeraldchat.com/*
 // @grant        GM_addStyle
 // @grant        GM_xmlhttpRequest
