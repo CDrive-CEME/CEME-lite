@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goodbye, ceme.lol</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .background {
+            background: #0f172a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 1rem;
+            position: relative;
+            overflow: hidden;
+        }
+        .floating {
+            position: absolute;
+            background: rgba(16, 185, 129, 0.1);
+            border-radius: 50%;
+            animation: float 6s ease-in-out infinite;
+        }
+        .floating:nth-child(1) {
+            width: 100px;
+            height: 100px;
+            top: 20%;
+            left: 15%;
+            animation-duration: 7s;
+        }
+        .floating:nth-child(2) {
+            width: 150px;
+            height: 150px;
+            top: 50%;
+            left: 60%;
+            animation-duration: 5s;
+        }
+        .floating:nth-child(3) {
+            width: 80px;
+            height: 80px;
+            top: 70%;
+            left: 30%;
+            animation-duration: 8s;
+        }
+        @keyframes float {
+            0% {
+                transform: translateY(0) translateX(0);
+            }
+            50% {
+                transform: translateY(-20px) translateX(20px);
+            }
+            100% {
+                transform: translateY(0) translateX(0);
+            }
+        }
+        .dark-box {
+            background: #1e293b;
+            color: #e2e8f0;
+            padding: 2.5rem;
+            border-radius: 1.5rem;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+            z-index: 10;
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+        }
+        .dark-box h1 {
+            color: #10b981;
+        }
+        .dark-box p {
+            color: #cbd5e0;
+        }
+    </style>
+</head>
+<body class="background text-white">
+
+    <div class="floating"></div>
+    <div class="floating"></div>
+    <div class="floating"></div>
+
+    <div class="dark-box">
+        <h1 class="text-4xl font-bold mb-4">ceme.lol</h1>
+        <h2 class="text-2xl font-semibold mb-6">Goodbye!</h2>
+        <p class="mb-8">
+            After careful consideration, ceme.lol has been discontinued. We thank you for your support and understanding.
+        </p>
+        <p>
+            While this chapter is closing, we hope our paths cross again in the future.
+        </p>
+    </div>
+
+</body>
+</html>
